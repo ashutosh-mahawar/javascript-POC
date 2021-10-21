@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>User Portal</h1>
+    <p id="user"></p>
+</head>
+<body>
+    <div>
+        <form action="form.html">
+            id: <input type="number" name="Id" id="id"><br>
+            name: <input type="string" name="Name" id="name"><br> 
+            experience: <input type="number" name="Experience" id="experience"><br>
+            password: <input type="string" name="password" id="password"><br>
+            <input type="submit" value="Submit">
+            
+        </form>
+    </div>
+    <div>
+        <button onclick="printUser()">Next</button>
+    </div>
+    <div>
+        <button onclick="login()">login</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
