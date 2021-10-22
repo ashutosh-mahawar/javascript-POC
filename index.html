@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <h1>User Portal</h1>
-    <p id="user"></p>
+    
 </head>
 <body>
     <div>
@@ -15,17 +15,22 @@
             name: <input type="string" name="Name" id="name"><br> 
             experience: <input type="number" name="Experience" id="experience"><br>
             password: <input type="string" name="password" id="password"><br>
-            <input type="submit" value="Submit">
-            
+            <input type="submit" value="Submit"> 
         </form>
     </div>
     <div>
-        <button onclick="printUser()">Next</button>
+        <button onclick="printUser()">Users</button>
+        <p id="user"></p>
     </div>
     <div>
         <button onclick="login()">login</button>
     </div>
     
+    <div>
+        <button onclick="request()">request</button>
+        <p id="data"></p>
+    </div>
     <script src="index.js"></script>
+    <script src="async_await.js"></script>
 </body>
 </html>
